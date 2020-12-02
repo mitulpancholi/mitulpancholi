@@ -1,4 +1,4 @@
-### Hi there, I'm Mitul - aka [Back2Stab] 👋
+### Hi there, I'm Mitul - aka [BaNaNa] 👋
 
 ## I'm a Freelancer
 
