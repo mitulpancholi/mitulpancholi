@@ -4,7 +4,7 @@
 
 - 🌱 I’m currently learning ReactJs 🤣
 - 👯 I’m looking to Go in more depth with ReactJs
-- 🥅 2020 Goals: Multiple ReactJs self made Website
+- 🥅 2021 Goals: Multiple ReactJs self made Website
 - ⚡ Fun fact: I love to Game
 
 ### Connect with me:
