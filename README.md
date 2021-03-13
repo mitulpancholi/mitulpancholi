@@ -2,7 +2,7 @@
 
 ## I'm a Freelancer
 
-- 🌱 I’m currently learning ReactJs 🤣
+- 🌱 I’m currently Working On ReactJs 
 - 👯 I’m looking to Go in more depth with ReactJs
 - 🥅 2021 Goals: Multiple ReactJs self made Website
 - ⚡ Fun fact: I love to Game
