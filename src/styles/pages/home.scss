@@ -1,0 +1,24 @@
+.home__wrapper {
+  height: 100vh;
+  min-height: 768px;
+
+  .container {
+    .row {
+      .title__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-bottom: 6.5rem;
+        
+
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: 2px;
+            font-size: 2.375rem;
+            font-weight: 600;
+            margin: 10px;
+        }
+      }
+    }
+  }
+}

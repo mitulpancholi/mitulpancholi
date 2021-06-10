@@ -4,7 +4,7 @@ const Navbar = () => {
   const [hamburger, setHamburger] = useState(false);
 
   return (
-    <div>
+    <>
       <div className="navbar__wrapper">
         <div className="container">
           <div className="row">
@@ -72,7 +72,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

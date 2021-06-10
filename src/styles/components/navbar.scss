@@ -1,4 +1,9 @@
 .navbar__wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
   .container {
     .row {
       justify-content: space-between;
