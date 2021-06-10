@@ -39,29 +39,36 @@ const Navbar = () => {
             </div>
           </div>
           <div className="showcase__wrapper">
-            <span>L</span>
-            <span>E</span>
-            <span>T</span>
-            <span>'</span>
-            <span>S</span>
-            <span> </span>
-            <span>M</span>
-            <span>A</span>
-            <span>K</span>
-            <span>E</span>
-            <span> </span>
-            <span>A</span>
-            <span> </span>
-            <span>D</span>
-            <span>I</span>
-            <span>F</span>
-            <span>F</span>
-            <span>E</span>
-            <span>R</span>
-            <span>E</span>
-            <span>N</span>
-            <span>C</span>
-            <span>E</span>
+            <h5 className="lets__wrapper">
+              <span>L</span>
+              <span>E</span>
+              <span>T</span>
+              <span>S</span>
+            </h5>
+
+            <h5 className="make__wrapper">
+              <span>M</span>
+              <span>A</span>
+              <span>K</span>
+              <span>E</span>
+            </h5>
+
+            <h5 className="showCaseA__wrapper">
+              <span>A</span>
+            </h5>
+
+            <h5 className="diff__wrapper">
+              <span>D</span>
+              <span>I</span>
+              <span>F</span>
+              <span>F</span>
+              <span>E</span>
+              <span>R</span>
+              <span>E</span>
+              <span>N</span>
+              <span>C</span>
+              <span>E</span>
+            </h5>
           </div>
         </div>
       </div>
