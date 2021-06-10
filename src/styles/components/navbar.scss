@@ -7,8 +7,12 @@
         padding: 20px 0px;
         display: flex;
         flex-direction: column;
+        transition: all 800ms ease-in-out 0s;
+
+        &.active {
+          color: $white;
+        }
         span {
-          
           font-size: 1.5rem;
           font-weight: 600;
           &:nth-child(2) {
@@ -37,6 +41,7 @@
         }
         &.active {
           span {
+            background-color: $white;
             transform: rotate(-45deg) translateY(8px);
 
             &:nth-child(2) {
@@ -50,8 +55,8 @@
           position: absolute;
           width: 100%;
           height: 2px;
-          background: $black;
-          transition: 0.3s ease-out;
+          background-color: $black;
+          transition: background-color 800ms ease-in-out 0.1s, transform 0.3s ease-out;
           transform-origin: center;
 
           &:nth-child(2) {

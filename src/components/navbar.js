@@ -8,7 +8,9 @@ const Navbar = () => {
       <div className="navbar__wrapper">
         <div className="container">
           <div className="row">
-            <div className="logo__wrapper">
+            <div
+              className={hamburger ? "logo__wrapper active" : "logo__wrapper"}
+            >
               <span>Mitul Pancholi</span>
               <span>Frontend Developer</span>
             </div>
@@ -24,11 +26,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div
-        className={
-          hamburger ? "menu__wrapper active" : "menu__wrapper"
-        }
-      >
+      <div className={hamburger ? "menu__wrapper active" : "menu__wrapper"}>
         <div className="menu__listing">
           <div className="list__wrapper">
             <ul>
