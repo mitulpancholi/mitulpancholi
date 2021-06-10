@@ -1,0 +1,62 @@
+.navbar__wrapper {
+  .container {
+    .row {
+      justify-content: space-between;
+      .logo__wrapper {
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: column;
+        span {
+          font-size: 1.5rem;
+          font-weight: 600;
+          &:nth-child(2) {
+            font-size: 1rem;
+            font-weight: 500;
+          }
+        }
+      }
+
+      .hamburger__icon {
+        width: 30px;
+        position: relative;
+        display: flex;
+
+        margin: 26px 0px;
+        cursor: pointer;
+        transition: 0.3s ease-out;
+
+        &:hover {
+          span {
+            &:nth-child(2) {
+              width: 100%;
+            }
+          }
+        }
+        &.active {
+          span {
+            transform: rotate(-45deg) translateY(8px);
+
+            &:nth-child(2) {
+              width: 100%;
+              transform: rotate(45deg) translateY(-7px);
+            }
+          }
+        }
+        span {
+          display: block;
+          position: absolute;
+          width: 100%;
+          height: 2px;
+          background: $black;
+          transition: 0.3s ease-out;
+          transform-origin: center;
+
+          &:nth-child(2) {
+            margin-top: 10px;
+            width: 60%;
+          }
+        }
+      }
+    }
+  }
+}
