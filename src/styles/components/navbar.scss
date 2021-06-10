@@ -3,10 +3,12 @@
     .row {
       justify-content: space-between;
       .logo__wrapper {
+        z-index: 9;
         padding: 20px 0px;
         display: flex;
         flex-direction: column;
         span {
+          
           font-size: 1.5rem;
           font-weight: 600;
           &:nth-child(2) {
@@ -17,6 +19,7 @@
       }
 
       .hamburger__icon {
+        z-index: 9;
         width: 30px;
         position: relative;
         display: flex;
@@ -58,5 +61,19 @@
         }
       }
     }
+  }
+}
+
+.menu__wrapper {
+  position: absolute;
+  inset: 0px;
+  background: $redShade;
+  overflow: hidden;
+  width: 0px;
+  height: 100vh;
+  transition: all 800ms ease-in-out 0s;
+
+  &.active {
+    width: 100%;
   }
 }
