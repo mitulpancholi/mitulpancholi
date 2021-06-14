@@ -94,6 +94,10 @@
     box-sizing: border-box;
     justify-content: space-between;
     padding: 7rem 13rem;
+    @include media("<=1366px") {
+      justify-content: center;
+      text-align: center;
+    }
 
     .menu__listing {
       .list__wrapper {
@@ -101,6 +105,10 @@
           list-style: none;
           margin: 5.75rem 0;
           padding: 0;
+
+          @include media("<=1440px") {
+            margin: 10vh 0;
+          }
 
           li {
             font-family: 'Staatliches', cursive;
@@ -128,6 +136,9 @@
       align-items: center;
       position: relative;
       width: 553px;
+      @include media("<=1366px") {
+        display: none;
+      }
      h5 {
       // position: absolute;
        span {
