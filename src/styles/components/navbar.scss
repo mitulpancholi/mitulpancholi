@@ -6,7 +6,7 @@
   z-index: 9;
   .container {
     .row {
-      justify-content: space-between;
+      justify-content: flex-end;
       .logo__wrapper {
         z-index: 9;
         padding: 20px 0px;
@@ -30,15 +30,19 @@
       .hamburger__icon {
         z-index: 9;
         width: 30px;
+        height: 30px;
         position: relative;
         display: flex;
-
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
         margin: 26px 0px;
         cursor: pointer;
         transition: 0.3s ease-out;
 
         &:hover {
           span {
+            
             &:nth-child(2) {
               width: 100%;
             }
@@ -56,8 +60,7 @@
           }
         }
         span {
-          display: block;
-          position: absolute;
+          display: inline-block;
           width: 100%;
           height: 2px;
           background-color: $black;
@@ -66,8 +69,8 @@
           transform-origin: center;
 
           &:nth-child(2) {
-            margin-top: 10px;
             width: 60%;
+            margin-top: 8px;
           }
         }
       }

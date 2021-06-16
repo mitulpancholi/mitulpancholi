@@ -7,29 +7,57 @@
       .title__text {
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content: center;
+        align-items: center;
         padding-bottom: 6.5rem;
-        
+        width: 100%;
 
         h1 {
-            font-family: 'Montserrat', sans-serif;
+            font-family: $cursive;
             letter-spacing: 2px;
-            font-size: 2.375rem;
-            font-weight: 600;
+            font-size: 6.375rem;
+            font-weight: 700;
             margin: 10px;
+            @include media("<=1366px") {
+              font-size: 6.75rem;
+            }
             @include media("<=1024px") {
-              font-size: 2rem;
+              font-size: 5.4rem;
             }
             @include media("<=tablet") {
-              font-size: 1.75rem;
+              font-size: 4rem;
+            }
+            @include media("<=475px") {
+              font-size: 3rem;
             }
             @include media("<=phone") {
-              font-size: 1rem;
+              font-size: 2.75rem;
             }
-            @include media("<=phone") {
-              font-size: 0.8rem;
-            }
+           
         }
+
+        h2 {
+          font-family: $mainfont;
+          letter-spacing: 2px;
+          font-size: 2rem;
+          font-weight: 400;
+          margin: 10px;
+          @include media("<=1366px") {
+            font-size: 1.75rem;
+          }
+          @include media("<=1024px") {
+            font-size: 1.5rem;
+          }
+          @include media("<=tablet") {
+            font-size: 1.25rem;
+          }
+          @include media("<=phone") {
+            font-size: 1rem;
+          }
+          @include media("<=phone") {
+            font-size: 0.8rem;
+          }
+      }
       }
     }
   }

@@ -8,12 +8,7 @@ const Navbar = () => {
       <div className="navbar__wrapper">
         <div className="container">
           <div className="row">
-            <div
-              className={hamburger ? "logo__wrapper active" : "logo__wrapper"}
-            >
-              <span>Mitul Pancholi</span>
-              <span>Frontend Developer</span>
-            </div>
+           
             <div
               className={
                 hamburger ? "hamburger__icon active" : "hamburger__icon"
@@ -32,8 +27,8 @@ const Navbar = () => {
             <div className="list__wrapper">
               <ul>
                 <li>Home</li>
-                <li>About</li>
                 <li>Work</li>
+                <li>About</li>
                 <li>Contact</li>
               </ul>
             </div>

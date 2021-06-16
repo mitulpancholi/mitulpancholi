@@ -6,8 +6,9 @@ const Home = () => {
       <div className="container">
         <div className="row">
           <div className="title__text">
-            <h1>Self Taught Frontend Web Developer</h1>
-            <h1>Who Design to Engage & Impact</h1>
+            <h1>Mitul Pancholi</h1>
+            {/* <h1>Self Taught Frontend Web Developer </h1> */}
+            <h2>Front-End Developer</h2>
           </div>
         </div>
       </div>
