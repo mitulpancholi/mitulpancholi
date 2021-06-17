@@ -139,6 +139,7 @@
       align-items: center;
       position: relative;
       width: 553px;
+      min-height: 500px;
       @include media("<=1366px") {
         display: none;
       }
