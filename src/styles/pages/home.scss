@@ -11,32 +11,34 @@
         align-items: center;
         padding-bottom: 6.5rem;
         width: 100%;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
 
-        h1 {
-            font-family: $cursive;
-            letter-spacing: 2px;
-            font-size: 6.375rem;
-            font-weight: 700;
-            margin: 10px;
-            @include media("<=1366px") {
-              font-size: 6.75rem;
-            }
-            @include media("<=1024px") {
-              font-size: 5.4rem;
-            }
-            @include media("<=tablet") {
-              font-size: 4rem;
-            }
-            @include media("<=475px") {
-              font-size: 3rem;
-            }
-            @include media("<=phone") {
-              font-size: 2.75rem;
-            }
-           
+        .full__name {
+          font-family: $cursive;
+          letter-spacing: 2px;
+          font-size: 6.375rem;
+          font-weight: 700;
+          margin: 10px;
+          @include media("<=1366px") {
+            font-size: 6.75rem;
+          }
+          @include media("<=1024px") {
+            font-size: 5.4rem;
+          }
+          @include media("<=tablet") {
+            font-size: 4rem;
+          }
+          @include media("<=475px") {
+            font-size: 3rem;
+          }
+          @include media("<=phone") {
+            font-size: 2.75rem;
+          }
         }
 
-        h2 {
+        .name__desc {
           font-family: $mainfont;
           letter-spacing: 2px;
           font-size: 2rem;
@@ -57,7 +59,7 @@
           @include media("<=phone") {
             font-size: 0.8rem;
           }
-      }
+        }
       }
     }
   }
