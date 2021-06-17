@@ -6,14 +6,14 @@ const tl = gsap.timeline();
 const Home = () => {
   useEffect(() => {
     tl.from(".title__text h1", {
-      duration: 1.0,
+      duration: 0.8,
       // opacity: 0,
       y: 150,
-      ease: "Power4.out",
-      skewY: 7,
+      ease: "Power4.in",
+      skewY: 5,
       delay: 1,
       stagger: {
-        amount: 0.3,
+        amount: 0.4,
       },
     });
   }, []);

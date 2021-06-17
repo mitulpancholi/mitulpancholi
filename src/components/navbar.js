@@ -1,19 +1,84 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import gsap from "gsap";
+
+const tl = gsap.timeline();
 
 const Navbar = () => {
   const [hamburger, setHamburger] = useState(false);
+  const [animation, setAnimation] = useState(false);
+
+  useEffect(() => {
+    if (hamburger === true) {
+      tl.from(".list__wrapper", {
+        duration: 0.7,
+        opacity: 0,
+        delay: 0.4,
+      })
+        .to(".showcase__wrapper", {
+          opacity: 1,
+          duration: 0,
+          delay: -0.4,
+        })
+        .from(".lets__wrapper span", {
+          duration: 0.7,
+          opacity: 0,
+          delay: -0.4,
+          stagger: {
+            amount: 0.1,
+          },
+        })
+        .from(".make__wrapper span", {
+          duration: 0.7,
+          opacity: 0,
+          delay: -0.4,
+          stagger: {
+            amount: 0.1,
+          },
+        })
+        .from(".showCaseA__wrapper span", {
+          duration: 0.7,
+          opacity: 0,
+          delay: -0.4,
+          stagger: {
+            amount: 0.1,
+          },
+        })
+        .from(".diff__wrapper span", {
+          duration: 0.7,
+          opacity: 0,
+          delay: -0.4,
+          stagger: {
+            amount: 0.1,
+          },
+        });
+    } else if (hamburger === false) {
+      tl.to(".showcase__wrapper", {
+        opacity: 0,
+        duration: 0.2,
+      });
+    }
+  }, [hamburger]);
+
+  const setData = (event) => {
+    if (tl.isActive()) {
+      event.preventDefault();
+    } else {
+      setHamburger(!hamburger);
+    }
+  };
+
+  console.log("this is animation data ===> ", animation);
 
   return (
     <>
       <div className="navbar__wrapper">
         <div className="container">
           <div className="row">
-           
             <div
               className={
                 hamburger ? "hamburger__icon active" : "hamburger__icon"
               }
-              onClick={() => setHamburger(!hamburger)}
+              onClick={setData}
             >
               <span></span>
               <span></span>
