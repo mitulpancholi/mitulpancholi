@@ -1,0 +1,36 @@
+.about__section {
+  .about__wrapper {
+    height: 40vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
+    div {
+      margin: 0;
+      font-size: 200px;
+      transition: transform 0.5s ease-out 0s;
+      font-family: $mainfont;
+      position: absolute;
+      color: rgb(238, 238, 238);
+      top: -10%;
+      left: 0%;
+      z-index: 2;
+    }
+
+    h2 {
+      margin: 0;
+      padding: 0;
+      font-size: 38px;
+      align-items: center;
+      font-family: $mainfont;
+      text-align: left;
+      margin-left: 30%;
+      margin-right: 5%;
+      font-weight: 500;
+      position: relative;
+      z-index: 3;
+      top: 10%;
+      left: 0%;
+    }
+  }
+}

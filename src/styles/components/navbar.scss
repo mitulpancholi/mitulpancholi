@@ -78,7 +78,7 @@
 }
 
 .menu__wrapper {
-  position: absolute;
+  position: fixed;
   inset: 0px;
   background: $redShade;
   overflow: hidden;

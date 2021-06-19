@@ -1,5 +1,5 @@
 import React from "react";
-import gsap from "gsap"
+import gsap from "gsap";
 import "./styles/App.scss";
 
 // Component Import
@@ -7,6 +7,7 @@ import Navbar from "./components/navbar";
 
 // Page Import
 import Home from "./pages/home";
+import About from "./pages/about";
 
 function App() {
   // wait for page to load then show body
@@ -23,6 +24,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Home />
+      <About />
     </div>
   );
 }

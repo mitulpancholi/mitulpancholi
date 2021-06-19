@@ -4,8 +4,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
 @import "./varibles.scss";
 @import "./breakpoints.scss";
+
+// component scss import
 @import "./components/navbar.scss";
+
+// page scss import
 @import "./pages/home.scss";
+@import "./pages/about.scss";
 
 body,
 html {
