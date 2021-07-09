@@ -7,7 +7,7 @@
 
     div {
       margin: 0;
-      font-size: 200px;
+      font-size: 9rem;
       transition: transform 0.5s ease-out 0s;
       font-family: $mainfont;
       position: absolute;
@@ -15,6 +15,23 @@
       top: -10%;
       left: 0%;
       z-index: 2;
+
+      @include media("<=1560px") {
+        font-size: 8.75rem;
+      }
+      @include media("<=1440px") {
+        font-size: 8rem;
+      }
+      @include media("<=1366px") {
+        font-size: 7.75rem;
+      }
+      @include media("<=1080px") {
+        font-size: 7rem;
+        top: 0;
+      }
+      @include media("<=768px") {
+        font-size: 5rem;
+      }
     }
 
     h2 {
@@ -31,6 +48,22 @@
       z-index: 3;
       top: 10%;
       left: 0%;
+      @include media("<=1560px") {
+        font-size: 1.75rem;
+      }
+      @include media("<=1440px") {
+        font-size: 1.65rem;
+      }
+      @include media("<=1366px") {
+        font-size: 1.55rem;
+      }
+      @include media("<=1080px") {
+        font-size: 1.5rem;
+        
+      }
+      @include media("<=768px") {
+        font-size: 1.275rem;
+      }
     }
   }
 }
