@@ -101,6 +101,9 @@
       justify-content: center;
       text-align: center;
     }
+    @include media("<=768px") {
+      margin: 0;
+    }
 
     .menu__listing {
       .list__wrapper {
@@ -122,6 +125,9 @@
             -webkit-text-stroke: 1px $white;
             letter-spacing: 10px;
             transition: all 300ms ease-in-out 0s;
+            @include media("<=1440px") {
+              font-size: 3.8rem;
+            }
             &:hover {
               color: $white;
               -webkit-text-stroke: none;

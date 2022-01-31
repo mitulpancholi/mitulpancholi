@@ -7,6 +7,14 @@ const Navbar = () => {
   const [hamburger, setHamburger] = useState(false);
 
   useEffect(() => {
+    if (hamburger) {
+      document.getElementById("body").style.overflow = "hidden";
+    } else {
+      document.getElementById("body").style.overflow = "auto";
+    }
+  }, [hamburger]);
+
+  useEffect(() => {
     if (window.innerWidth <= 1366) {
       if (hamburger === true) {
         tl.from(".list__wrapper", {
