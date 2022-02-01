@@ -1,4 +1,4 @@
-### Hi there, I'm Mitul - aka [BaNaNa] 👋
+### Hi there, I'm Mitul Pancholi - aka [BaNaNa] 👋
 
 ## I'm a Freelancer
 
