@@ -9,7 +9,6 @@ I've been learning Web development for last 7 years.
 * 🌍  I'm based in Surat, Gujarat
 * 🖥️  See my portfolio at [Mitul Pancholi](http://mitulpancholi.com)
 * ✉️  You can contact me at [mitul.pancholi@live.com](mailto:mitul.pancholi@live.com)
-* 🚀  I'm currently working on [AOW Studio](http://aow.co.in)
 * 🧠  I'm learning ThreeJs
 
 ### Skills
