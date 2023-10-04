@@ -4,7 +4,7 @@ Hi 👋 My name is Mitul Pancholi
 Frontend Developer
 ------------------
 
-I've been learning Web development for last 5 years.
+I've been learning Web development for last 7 years.
 
 * 🌍  I'm based in Surat, Gujarat
 * 🖥️  See my portfolio at [Mitul Pancholi](http://mitulpancholi.com)
